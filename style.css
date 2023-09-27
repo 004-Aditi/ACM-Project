@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+/**********************Navbar Styling**********************/
+.header-class {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../nitt.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-container {
+  height: 10vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 5rem;
+  border-radius: 2px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+li > a:link,
+li > a:visited {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: all 2ms linear;
+}
+
+li > a:active,
+li > a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+/************** Login And Signup Styling*********/
+main {
+  margin: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.container {
+  width: 400px;
+  max-width: 400px;
+  margin: 2rem;
+  padding: 4rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: var(--border-radius);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.form__title {
+  color: #fff;
+}
+
+.regi .container,
+.form__input,
+.form__button {
+  font: 500 2rem "Quicksand", sans-serif;
+}
+
+.form--hidden {
+  display: none;
+}
+
+.form > *:first-child {
+  margin-top: 0;
+}
+
+.form > *:last-child {
+  margin-bottom: 0;
+}
+
+.form__title {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.form__message {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form__input-group {
+  margin-bottom: 2rem;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 1.1rem;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: 1px solid #dddddd;
+  outline: none;
+  background: #eeeeee;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus {
+  border-color: #009579;
+  background: #ffffff;
+}
+
+.form__input--error {
+  color: #cc3333;
+  border-color: #cc3333;
+}
+
+.form__input-error-message {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  color: #cc3333;
+}
+
+.form__button {
+  width: 100%;
+  padding: 2rem 2.8rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+  border: none;
+  border-radius: var(--border-radius);
+  outline: none;
+  cursor: pointer;
+  background: #009579;
+}
+
+.form__button:hover {
+  background: #007f67;
+}
+
+.form__button:active {
+  transform: scale(0.98);
+}
+
+.form__text {
+  text-align: center;
+}
+
+.form__link {
+  color: #777;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.form__link:hover {
+  text-decoration: underline;
+}
