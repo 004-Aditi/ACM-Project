@@ -68,7 +68,7 @@ main {
   margin: 2rem;
   padding: 4rem;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-  border-radius: var(--border-radius);
+  border-radius: 9px;
   background: rgba(0, 0, 0, 0.5);
 }
 
